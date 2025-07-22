@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alexia Herrera – Comunicación ULima</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Alexia Herrera – Comunicación ULima</h1>
+    <p>Mi página personal con mi malla interactiva y especialidades</p>
+  </header>
+
+  <nav>
+    <a href="#malla">📘 Malla</a>
+    <a href="#especialidades">⭐ Especialidades</a>
+    <a href="#ruta">🎯 Mi Ruta</a>
+    <a href="#portafolio">📸 Portafolio</a>
+  </nav>
+
+  <main>
+    <section id="malla">
+      <h2>📘 Malla Interactiva</h2>
+      <p>Aquí puedes insertar un link o una tabla de Google Sheets con tu malla.</p>
+      <!-- Ejemplo de embed:
+      <iframe src="https://docs.google.com/spreadsheets/d/TU_ID_AQUI/edit?usp=sharing" width="100%" height="500"></iframe>
+      -->
+    </section>
+
+    <section id="especialidades">
+      <h2>⭐ Mis Especialidades</h2>
+      <ul>
+        <li>Publicidad y Marketing</li>
+        <li>Gestión y Realización Audiovisual</li>
+        <li>Fotografía y Diseño</li>
+        <li>Comunicación Corporativa</li>
+      </ul>
+    </section>
+
+    <section id="ruta">
+      <h2>🎯 Mi Ruta Personal</h2>
+      <p>Aquí puedes escribir tu planificación por ciclos, objetivos o metas.</p>
+    </section>
+
+    <section id="portafolio">
+      <h2>📸 Portafolio</h2>
+      <p>Cuando tengas campañas, fotos o videos, los puedes mostrar aquí.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Alexia Herrera – Comunicación ULima</p>
+  </footer>
+</body>
+</html>
