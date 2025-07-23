@@ -1,58 +1,105 @@
-<section id="especialidades">
-  <h2>⭐ Mis Especialidades</h2>
-  <div class="especialidad">
-    <h3>📢 Publicidad y Marketing</h3>
-    <p>
-      Esta especialidad te prepara para diseñar y ejecutar campañas publicitarias, con cursos clave como:
-    </p>
-    <ul>
-      <li>Fundamentos de Marketing</li>
-      <li>Comportamiento del Consumidor</li>
-      <li>Creatividad Publicitaria</li>
-      <li>Planeamiento Publicitario</li>
-      <li>Comunicación de Marketing Digital</li>
-    </ul>
-  </div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alexia Herrera – Malla Interactiva</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #eaf4fb;
+      color: #001041;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #a4c6ff;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    nav {
+      background-color: #d1e3f3;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #001041;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #71b6e0;
+      padding-bottom: 5px;
+    }
+    h3 {
+      color: #005f99;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      padding-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alexia Herrera – Comunicación ULima</h1>
+    <p>🌊 Mi malla interactiva con especialidades y ciclos</p>
+  </header>
 
-  <div class="especialidad">
-    <h3>🎥 Gestión y Realización Audiovisual</h3>
-    <p>
-      Aquí profundizas en producción y dirección audiovisual, con talleres prácticos:
-    </p>
-    <ul>
-      <li>Taller de Televisión</li>
-      <li>Narrativa Transmedia</li>
-      <li>Dirección de Actores</li>
-      <li>Dirección de Fotografía</li>
-      <li>Taller de Cine</li>
-    </ul>
-  </div>
+  <nav>
+    <a href="#malla">📘 Malla</a>
+    <a href="#especialidades">⭐ Especialidades</a>
+  </nav>
 
-  <div class="especialidad">
-    <h3>📸 Fotografía y Diseño</h3>
-    <p>
-      Para desarrollar tu ojo visual y habilidades técnicas en imagen:
-    </p>
-    <ul>
-      <li>Taller de Fotografía</li>
-      <li>Diseño Editorial</li>
-      <li>Motion Graphics</li>
-      <li>Identidad Visual</li>
-      <li>Portafolio Fotográfico</li>
-    </ul>
-  </div>
+  <main>
+    <!-- Sección Malla Interactiva -->
+    <section id="malla">
+      <h2>📘 Malla Interactiva</h2>
+      <div id="tabla-malla">Cargando malla...</div>
+    </section>
 
-  <div class="especialidad">
-    <h3>🏢 Comunicación Corporativa</h3>
-    <p>
-      Enfocada en estrategia y gestión de la comunicación interna y externa de las empresas:
-    </p>
-    <ul>
-      <li>Comunicación Interna</li>
-      <li>Imagen Corporativa y Reputación</li>
-      <li>Auditoría en Comunicación</li>
-      <li>Gerencia de Marca</li>
-      <li>Taller de Campañas Corporativas</li>
-    </ul>
-  </div>
-</section>
+    <!-- Puedes agregar más secciones si quieres -->
+  </main>
+
+  <footer style="text-align: center; padding: 20px; background-color: #a4c6ff; color: white;">
+    © 2025 Alexia Herrera – Comunicación ULima
+  </footer>
+
+  <!-- Script para leer el JSON -->
+  <script>
+    fetch('malla.json')
+      .then(response => response.json())
+      .then(data => {
+        const contenedor = document.getElementById('tabla-malla');
+        contenedor.innerHTML = ''; // limpiamos "Cargando..."
+
+        data.forEach(bloque => {
+          const ciclo = document.createElement('h3');
+          ciclo.textContent = `Ciclo ${bloque.ciclo}`;
+          contenedor.appendChild(ciclo);
+
+          const lista = document.createElement('ul');
+          bloque.cursos.forEach(curso => {
+            const item = document.createElement('li');
+            item.textContent = curso;
+            lista.appendChild(item);
+          });
+
+          contenedor.appendChild(lista);
+        });
+      })
+      .catch(error => {
+        const contenedor = document.getElementById('tabla-malla');
+        contenedor.innerHTML = 'Error al cargar la malla 😢';
+        console.error('Error al leer malla.json:', error);
+      });
+  </script>
+</body>
+</html>
