@@ -1,0 +1,805 @@
+{
+  "mallaData": [
+    {
+      "año": 1,
+      "periodo": "anual",
+      "materias": []
+    },
+    {
+      "año": 1,
+      "periodo": "ciclo 1",
+      "materias": [
+        {
+          "id": "93b08cdb-d8b6-461c-9a95-c5941d9025e4",
+          "nombre": "GLOBALIZACIÓN Y REALIDAD NACIONAL (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "0a5f9932-98dc-4c5b-ad29-cac103205219",
+          "nombre": "LENGUAJE Y COMUNICACIÓN I (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 4,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "20babffe-84b9-4e1e-a00c-7f1b28c9a776",
+          "nombre": "METODOLOGÍAS DE INVESTIGACIÓN (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "68fa3e08-f227-40b7-be70-aa9a84ce4fb7",
+          "nombre": "DESARROLLO PERSONAL Y SOCIAL (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "dc9e8948-464b-42c4-b97c-12ce06870e89",
+          "nombre": "FUNDAMENTOS DE MATEMÁTICA (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 5,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "1762855b-b594-4b6c-ab13-33497e599bf5",
+          "nombre": "ÉTICA CÍVICA (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 2,
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 1,
+      "periodo": "ciclo 2",
+      "materias": [
+        {
+          "id": "48323012-ca8a-4411-963b-1e94b883b4c4",
+          "nombre": "ECONOMÍA Y EMPRESA (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "0196be22-615b-4c8a-bd59-012c2bab1417",
+          "nombre": "LENGUAJE Y COMUNICACIÓN II (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "0a5f9932-98dc-4c5b-ad29-cac103205219"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "9aee8add-90f9-4dc4-83bc-a50b2bd34042",
+          "nombre": "PROCESOS SOCIALES Y POLÍTICOS (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "4b785180-f796-446a-b2c3-c11ad2dc1142",
+          "nombre": "TEMAS DE FILOSOFÍA (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "db80886f-23d3-4cc0-ba16-cca2a83442cc",
+          "nombre": "LITERATURA Y SOCIEDAD (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "0a5f9932-98dc-4c5b-ad29-cac103205219"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "6c8a3f1d-a23a-46ca-87ab-2a6443dcfb8c",
+          "nombre": "ARTE Y CULTURA (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 5,
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 2,
+      "periodo": "anual",
+      "materias": []
+    },
+    {
+      "año": 2,
+      "periodo": "ciclo 3",
+      "materias": [
+        {
+          "id": "dd13e288-e111-4306-9e0c-f83914d62261",
+          "nombre": "STORYTELLING (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "0196be22-615b-4c8a-bd59-012c2bab1417"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "b8d6f6d5-de68-423d-9720-c049fe8aa48c",
+          "nombre": "ANÁLISIS DE ACTUALIDAD NACIONAL (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "9aee8add-90f9-4dc4-83bc-a50b2bd34042"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "faa4724c-512f-435b-90d9-897eeb9b3545",
+          "nombre": "FUNDAMENTOS DE LA COMUNICACIÓN (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "9aee8add-90f9-4dc4-83bc-a50b2bd34042"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "22432544-baa6-4dd2-9dba-6a85d3174d44",
+          "nombre": "ESTÉTICAS CONTEMPORÁNEAS (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "6c8a3f1d-a23a-46ca-87ab-2a6443dcfb8c"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "dde68bee-4e00-42e1-b463-00bff82a54ce",
+          "nombre": "LENGUAJE GRÁFICO (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "85ed6e07-5a94-48d9-93cf-f4bd6b93a840",
+          "nombre": "LENGUAJE AUDIOVISUAL (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "389c0436-5ed8-4d41-b0cc-562bcb81299a",
+          "nombre": "FUNDAMENTOS DE PUBLICIDAD Y MARKETING (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 3,
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 2,
+      "periodo": "ciclo 4",
+      "materias": [
+        {
+          "id": "84a16533-7c94-45a9-b040-194b36aa97f1",
+          "nombre": "BASES DE LA INFORMACIÓN (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "dd13e288-e111-4306-9e0c-f83914d62261"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "8ee4b7fb-630f-41d6-ae4e-1c6ca7b51e0f",
+          "nombre": "COMUNICACIÓN Y DESARROLLO (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "faa4724c-512f-435b-90d9-897eeb9b3545"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "14e62622-c0a4-4ad2-a97e-6b2abd7e03a5",
+          "nombre": "TÉCNICAS FOTOGRÁFICAS (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "dde68bee-4e00-42e1-b463-00bff82a54ce"
+          ],
+          "creditos": 4,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "adc24c4e-fec5-415d-a303-7779734a5237",
+          "nombre": "COMUNICACIÓN Y EMPRESA (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "faa4724c-512f-435b-90d9-897eeb9b3545"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "5f4cdbf1-2b61-4cd3-a281-e25cd2566eb5",
+          "nombre": "TÉCNICAS AUDIOVISUALES (O)",
+          "tipo": "ninguno",
+          "requisitos": [],
+          "creditos": 4,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "e9db3de2-1526-46ee-a63e-c3c7c972b7ff",
+          "nombre": "COMPORTAMIENTO DEL CONSUMIDOR",
+          "tipo": "ninguno",
+          "requisitos": [
+            "389c0436-5ed8-4d41-b0cc-562bcb81299a"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 3,
+      "periodo": "anual",
+      "materias": []
+    },
+    {
+      "año": 3,
+      "periodo": "ciclo 5",
+      "materias": [
+        {
+          "id": "bd2ea67c-d237-417e-ad08-33b013eaa789",
+          "nombre": "SOCIEDAD Y COMUNICACIÓN (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "faa4724c-512f-435b-90d9-897eeb9b3545"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "61e7021e-6639-45d7-8fe3-0f2433dad9e1",
+          "nombre": "NARRATIVA AUDIOVISUAL (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "dd13e288-e111-4306-9e0c-f83914d62261"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "76b6be5b-7102-44d9-b1ca-39ab94ebba4c",
+          "nombre": "TÉCNICAS DE AUDIO (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "5f4cdbf1-2b61-4cd3-a281-e25cd2566eb5"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "384fe647-04c2-49d4-b184-6a66627d563a",
+          "nombre": "TÉCNICAS DE DISEÑO (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "dde68bee-4e00-42e1-b463-00bff82a54ce"
+          ],
+          "creditos": 4,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "19ef97b5-3658-4300-9371-807be0d7a26d",
+          "nombre": "ESTRATEGIAS DE MARKETING ",
+          "tipo": "ninguno",
+          "requisitos": [
+            "389c0436-5ed8-4d41-b0cc-562bcb81299a"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "9b06ea6b-ee9e-4fd1-ac02-87ce628b442a",
+          "nombre": "POSPRODUCCIÓN AUDIOVISUAL",
+          "tipo": "ninguno",
+          "requisitos": [
+            "5f4cdbf1-2b61-4cd3-a281-e25cd2566eb5"
+          ],
+          "creditos": 4,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "f4317c54-49b2-4cd3-8f9d-49f440b82dda",
+          "nombre": "PUBLICIDAD Y PROMOCIÓN",
+          "tipo": "ninguno",
+          "requisitos": [
+            "389c0436-5ed8-4d41-b0cc-562bcb81299a"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "d7405c22-36af-4849-b03f-2647587047da",
+          "nombre": "DIRECCIÓN DE ARTES VISUALES ",
+          "tipo": "ninguno",
+          "requisitos": [
+            "22432544-baa6-4dd2-9dba-6a85d3174d44"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "af20ba43-4f37-48b7-a7ff-c25b7122e983",
+          "nombre": "TALLER DE FOTOGRAFÍA",
+          "tipo": "ninguno",
+          "requisitos": [
+            "14e62622-c0a4-4ad2-a97e-6b2abd7e03a5"
+          ],
+          "creditos": 4,
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 3,
+      "periodo": "ciclo 6",
+      "materias": [
+        {
+          "id": "7f349484-d55e-4bf5-9c41-5698b2171e32",
+          "nombre": "TÉCNICAS DE INVESTIGACIÓN (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "bd2ea67c-d237-417e-ad08-33b013eaa789"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "43b926f2-0d51-4b04-9fc6-2228daf472e0",
+          "nombre": "TALLER DE VIDEO (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "61e7021e-6639-45d7-8fe3-0f2433dad9e1",
+            "5f4cdbf1-2b61-4cd3-a281-e25cd2566eb5"
+          ],
+          "creditos": 6,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "65cf4238-1cfb-452c-9cc5-c9777ea11826",
+          "nombre": "COMUNICACIÓN Y EXPERIENCIA DE USUARIO (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "384fe647-04c2-49d4-b184-6a66627d563a"
+          ],
+          "creditos": 4,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "2c097e4e-b7d6-4179-979c-929d26b5a846",
+          "nombre": "CREATIVIDAD PUBLICITARIA",
+          "tipo": "ninguno",
+          "requisitos": [
+            "389c0436-5ed8-4d41-b0cc-562bcb81299a"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "e5c571ed-8627-40b4-952e-a3bfb9d2fa3f",
+          "nombre": "ESTRATEGIA DE MEDIOS",
+          "tipo": "ninguno",
+          "requisitos": [
+            "f4317c54-49b2-4cd3-8f9d-49f440b82dda"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "41a56041-bdae-48ef-88ae-92f876886bf6",
+          "nombre": "GESTIÓN DE CONTENIDOS AUDIOVISUALES",
+          "tipo": "ninguno",
+          "requisitos": [
+            "5f4cdbf1-2b61-4cd3-a281-e25cd2566eb5"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "8b4d0575-8cf9-49da-96ea-1adb5d18158b",
+          "nombre": "MOTION GRAPHICS",
+          "tipo": "ninguno",
+          "requisitos": [
+            "384fe647-04c2-49d4-b184-6a66627d563a"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "590b9e4c-a775-47f8-a0f3-27970dbbebc4",
+          "nombre": "DISEÑO VISUAL",
+          "tipo": "ninguno",
+          "requisitos": [
+            "384fe647-04c2-49d4-b184-6a66627d563a"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 4,
+      "periodo": "anual",
+      "materias": []
+    },
+    {
+      "año": 4,
+      "periodo": "ciclo 7",
+      "materias": [
+        {
+          "id": "f700e543-149f-4b67-b6b0-c6cd76a9e43b",
+          "nombre": "PROCESOS INTERCULTURALES (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "bd2ea67c-d237-417e-ad08-33b013eaa789"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "9b34b357-9eb9-4d9a-b390-5a4d2f0e5ec7",
+          "nombre": "COMUNICACIÓN POLÍTICA (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "bd2ea67c-d237-417e-ad08-33b013eaa789"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "f91424d2-c24b-4d00-b7b5-04197f20baad",
+          "nombre": "EDUCACIÓN Y COMUNICACIÓN (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "bd2ea67c-d237-417e-ad08-33b013eaa789"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "48c42749-3781-4227-968c-5370d1997b30",
+          "nombre": "SEMIÓTICA NARRATIVA (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "61e7021e-6639-45d7-8fe3-0f2433dad9e1"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "0fa49f26-ab6f-4728-86eb-8da23b465166",
+          "nombre": "TALLER DE TELEVISIÓN",
+          "tipo": "ninguno",
+          "requisitos": [
+            "61e7021e-6639-45d7-8fe3-0f2433dad9e1"
+          ],
+          "creditos": 6,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "54c4df1e-9d5d-47d9-84bb-9d4d618394e0",
+          "nombre": "DIRECCIÓN DE ACTORES",
+          "tipo": "ninguno",
+          "requisitos": [
+            "61e7021e-6639-45d7-8fe3-0f2433dad9e1"
+          ],
+          "creditos": 4,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "82b98abd-a5e7-458c-81d4-fc4e636ad8e1",
+          "nombre": "GERENCIA DE MARCA",
+          "tipo": "ninguno",
+          "requisitos": [
+            "19ef97b5-3658-4300-9371-807be0d7a26d"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "d37ee07f-b160-41b6-90a5-06b770f23555",
+          "nombre": "ESTRATEGIAS EN ECOSISTEMAS DIGITALES",
+          "tipo": "ninguno",
+          "requisitos": [
+            "389c0436-5ed8-4d41-b0cc-562bcb81299a",
+            "8ee4b7fb-630f-41d6-ae4e-1c6ca7b51e0f"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "a43b2f65-bec3-4f29-a8c3-372308660815",
+          "nombre": "FOTOGRAFÍA DOCUMENTAL Y PERIODÍSTICA",
+          "tipo": "ninguno",
+          "requisitos": [
+            "14e62622-c0a4-4ad2-a97e-6b2abd7e03a5",
+            "84a16533-7c94-45a9-b040-194b36aa97f1"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "d5e6f79d-fcd6-4870-92d1-0e38f408b26b",
+          "nombre": "NARRATIVA GRÁFICA",
+          "tipo": "ninguno",
+          "requisitos": [
+            "dd13e288-e111-4306-9e0c-f83914d62261",
+            "384fe647-04c2-49d4-b184-6a66627d563a"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 4,
+      "periodo": "ciclo 8",
+      "materias": [
+        {
+          "id": "30cadfa6-ff68-42b0-bc4d-aad2625b1a00",
+          "nombre": "GESTIÓN EMPRESARIAL (O) ",
+          "tipo": "ninguno",
+          "requisitos": [
+            "7f349484-d55e-4bf5-9c41-5698b2171e32"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "1c5bbdba-be13-4ca9-91df-ef8d3634d28f",
+          "nombre": "PRODUCCIÓN Y REALIZACIÓN PUBLICITARIA",
+          "tipo": "ninguno",
+          "requisitos": [
+            "48c42749-3781-4227-968c-5370d1997b30"
+          ],
+          "creditos": 6,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "918e3ec6-3720-48b2-bd36-8be83f314a3e",
+          "nombre": "PLANEAMIENTO PUBLICITARIO",
+          "tipo": "ninguno",
+          "requisitos": [
+            "f4317c54-49b2-4cd3-8f9d-49f440b82dda"
+          ],
+          "creditos": 0,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "f6c27089-72f8-459b-88a8-daf43d39f182",
+          "nombre": "DISEÑO EDITORIAL",
+          "tipo": "ninguno",
+          "requisitos": [
+            "384fe647-04c2-49d4-b184-6a66627d563a"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "3a6373bd-5996-4155-8124-15bd20c8d304",
+          "nombre": "NARRATIVA TRANSMEDIA",
+          "tipo": "ninguno",
+          "requisitos": [
+            "43b926f2-0d51-4b04-9fc6-2228daf472e0"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "ce53ad04-3af4-4117-82ed-4f83d5c4b245",
+          "nombre": "DIRECCIÓN DE FOTOGRAFÍA",
+          "tipo": "ninguno",
+          "requisitos": [
+            "14e62622-c0a4-4ad2-a97e-6b2abd7e03a5",
+            "43b926f2-0d51-4b04-9fc6-2228daf472e0"
+          ],
+          "creditos": 4,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "5da68a3a-12e9-4d63-aae8-49d977e2012a",
+          "nombre": "TRABAJO PROFESIONAL I",
+          "tipo": "ninguno",
+          "requisitos": [
+            "7f349484-d55e-4bf5-9c41-5698b2171e32"
+          ],
+          "creditos": 5,
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 5,
+      "periodo": "anual",
+      "materias": []
+    },
+    {
+      "año": 5,
+      "periodo": "ciclo 9",
+      "materias": [
+        {
+          "id": "bed054eb-070e-4189-9650-d23bde5c1bed",
+          "nombre": "LEGISLACIÓN Y ÉTICA PROFESIONAL (O)",
+          "tipo": "ninguno",
+          "requisitos": [
+            "9b34b357-9eb9-4d9a-b390-5a4d2f0e5ec7"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "0b43702f-9586-4697-943a-dee74f148d9f",
+          "nombre": "COMUNICACIONES DE MARKETING DIGITAL",
+          "tipo": "ninguno",
+          "requisitos": [
+            "19ef97b5-3658-4300-9371-807be0d7a26d"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "e470a2b0-4516-4ee8-98a4-aebc5a37ac9f",
+          "nombre": "TALLER TRANSMEDIA",
+          "tipo": "ninguno",
+          "requisitos": [
+            "43b926f2-0d51-4b04-9fc6-2228daf472e0"
+          ],
+          "creditos": 6,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "7420cf28-14ee-49fe-a126-6e6a2072357e",
+          "nombre": "DIRECCIÓN AUDIOVISUAL",
+          "tipo": "ninguno",
+          "requisitos": [
+            "43b926f2-0d51-4b04-9fc6-2228daf472e0"
+          ],
+          "creditos": 4,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "80beaa52-ef0b-4983-89e5-71e333ef64ec",
+          "nombre": "IDENTIDAD VISUAL",
+          "tipo": "ninguno",
+          "requisitos": [
+            "384fe647-04c2-49d4-b184-6a66627d563a"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "eaed42d3-4f59-4530-ba60-f2c624c2bcfe",
+          "nombre": "GESTIÓN Y PRODUCCIÓN DEL DISEÑO",
+          "tipo": "ninguno",
+          "requisitos": [
+            "384fe647-04c2-49d4-b184-6a66627d563a"
+          ],
+          "creditos": 3,
+          "requiereCreditos": 0
+        }
+      ]
+    },
+    {
+      "año": 5,
+      "periodo": "ciclo 10",
+      "materias": [
+        {
+          "id": "c9018a8d-2919-4acd-9a50-c11b156c047e",
+          "nombre": "TALLER DE CINE",
+          "tipo": "ninguno",
+          "requisitos": [
+            "54c4df1e-9d5d-47d9-84bb-9d4d618394e0",
+            "43b926f2-0d51-4b04-9fc6-2228daf472e0"
+          ],
+          "creditos": 6,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "3ac08148-e64c-40f8-b205-2ec04caca6d6",
+          "nombre": "DISEÑO Y EJECUCIÓN DE CAMPAÑAS PUBLICITARIAS",
+          "tipo": "ninguno",
+          "requisitos": [
+            "1c5bbdba-be13-4ca9-91df-ef8d3634d28f"
+          ],
+          "creditos": 6,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "e495dc81-f2ee-42f7-9870-6d68f5e511d0",
+          "nombre": "PORTAFOLIO FOTOGRÁFICO",
+          "tipo": "ninguno",
+          "requisitos": [
+            "14e62622-c0a4-4ad2-a97e-6b2abd7e03a5"
+          ],
+          "creditos": 4,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "e62a5a71-8e32-48af-8805-6c4bd100097d",
+          "nombre": "TALLER DE CAMPAÑAS GRÁFICAS ",
+          "tipo": "ninguno",
+          "requisitos": [
+            "590b9e4c-a775-47f8-a0f3-27970dbbebc4"
+          ],
+          "creditos": 4,
+          "requiereCreditos": 0
+        },
+        {
+          "id": "aec3a9dd-834d-435b-83d7-18a36bb93f04",
+          "nombre": "TRABAJO PROFESIONAL II",
+          "tipo": "ninguno",
+          "requisitos": [
+            "5da68a3a-12e9-4d63-aae8-49d977e2012a"
+          ],
+          "creditos": 5,
+          "requiereCreditos": 0
+        }
+      ]
+    }
+  ],
+  "estructuraPorAnio": [
+    {
+      "tipo": "cuatrimestral",
+      "periodos": [
+        "ciclo 1",
+        "ciclo 2"
+      ]
+    },
+    {
+      "tipo": "cuatrimestral",
+      "periodos": [
+        "ciclo 3",
+        "ciclo 4"
+      ]
+    },
+    {
+      "tipo": "cuatrimestral",
+      "periodos": [
+        "ciclo 5",
+        "ciclo 6"
+      ]
+    },
+    {
+      "tipo": "cuatrimestral",
+      "periodos": [
+        "ciclo 7",
+        "ciclo 8"
+      ]
+    },
+    {
+      "tipo": "cuatrimestral",
+      "periodos": [
+        "ciclo 9",
+        "ciclo 10"
+      ]
+    }
+  ],
+  "cantidadAnios": 5
+}
